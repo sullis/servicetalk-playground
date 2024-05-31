@@ -24,6 +24,13 @@
     <dependencyManagement>
     <dependencies>
       <dependency>
+        <groupId>io.servicetalk</groupId>
+        <artifactId>servicetalk-bom</artifactId>
+        <version>0.42.44</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>testcontainers-bom</artifactId>
         <version>1.19.8</version>
@@ -48,6 +55,14 @@
   </dependencyManagement>
 
   <dependencies>
+    <dependency>
+      <groupId>io.servicetalk</groupId>
+      <artifactId>servicetalk-annotations</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.servicetalk</groupId>
+      <artifactId>servicetalk-http-netty</artifactId>
+    </dependency>
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
