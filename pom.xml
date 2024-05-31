@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.sullis</groupId>
-  <artifactId>foobar-playground</artifactId>
+  <artifactId>servicetalk-playground</artifactId>
   <packaging>jar</packaging>
-  <name>foobar-playground</name>
+  <name>servicetalk-playground</name>
   <version>0.0.1-SNAPSHOT</version>
-  <description>foobar-playground</description>
+  <description>servicetalk-playground</description>
   <licenses>
     <license>
       <name>Apache License 2.0</name>
