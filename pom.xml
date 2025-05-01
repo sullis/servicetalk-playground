@@ -26,7 +26,7 @@
       <dependency>
         <groupId>io.servicetalk</groupId>
         <artifactId>servicetalk-bom</artifactId>
-        <version>0.42.55</version>
+        <version>0.42.56</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
